@@ -1,0 +1,38 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+div {
+    border: 4px solid black;  
+    color: black;
+    height: 400px;
+    width: 400px;
+    border-radius: 25px;
+}
+
+div h1 {
+    color: red;
+    margin: 20px;
+}
+div h2 {
+    color: blue; 
+    margin-left: 150px;
+}
+div h3 {
+    color: goldenrod; 
+    margin-left: 300px;
+}
+
+div input {
+    margin-left: 80px;
+    padding: 10px 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+div button {
+    margin-left: 160px;
+}
+
+div span {
+    color: black;
+}

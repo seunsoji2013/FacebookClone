@@ -1,0 +1,103 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background: #f4f4f4;
+}
+h1 {
+    color: blue;
+    padding: 0px 150px;
+    margin-top: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+h2 {
+    color: black;
+    padding: 0px 150px;
+}
+p {
+    padding: 0px 150px;
+}
+div {
+    border: 3px solid white;  
+    color: black;
+    background-color: white;
+    height: 350px;
+    width: 400px;
+    border-radius: 5px;
+    margin-left: 750px;
+    border-top-width: 30px;
+}
+div input {
+    margin-left: 10px;
+    padding: 15px 10px;
+    margin-top: 2px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    width: 360px;
+    border: 0.5px solid blue;
+}
+div button {
+    margin-left: 10px;
+    padding: 15px 10px;
+    margin-top: 2px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    width: 360px;
+    background-color: blue;
+    color: white;
+    border: none;
+ }
+ div span {
+    margin: 120px;
+    padding: 15px 10px;
+    margin-top: 2px;
+    margin-bottom: 15px;
+ }
+ div hr {
+    
+    margin-top: 15px;
+    margin-bottom: 15px;
+ }
+ div .account {
+    margin-left: 100px;
+    padding: 15px 10px;
+    margin-top: 2px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    width: 200px;
+    background-color: green;
+    color: white;
+    border: none;
+ }
+ div .page {
+    margin-left: 1000px;
+ }
+section {
+    border: 3px solid;  
+    color: black;
+    background-color: black;
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+    margin-left: 150px;
+    background: url(images/Facebook.jpg)
+}
+section {
+    border: 3px solid;  
+    color: black;
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+    margin-left: 150px;
+    
+}
+.john {
+    float: left;
+    margin-left: 15px;
+    overflow: scroll;
+}
