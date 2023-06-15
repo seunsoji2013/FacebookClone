@@ -1,5 +1,5 @@
 body{
-    background-image: url(Avatar.jpg);
+    background-image: url(images/Avatar.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     /* background-position: center; */
@@ -7,7 +7,7 @@ body{
 }
 input{
     padding: 8px;
-    width: 400px;
+    width: 450px;
     border-radius: 5px;
     border: 0px;
 }
@@ -106,7 +106,4 @@ section .apple{
     background: transparent;
     color: white;
     border: 0px; 
-}
-h4{
-    color: white;
 }
