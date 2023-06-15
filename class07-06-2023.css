@@ -1,4 +1,5 @@
 body {
+    background: conic-gradient(from .5turn at bottom center, lightblue, white);
     font-family: 'Oswald', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
@@ -35,4 +36,12 @@ div button {
 
 div span {
     color: black;
+}
+
+h1 {
+    color: red;
+}
+
+h1 {
+    color: blue;
 }
