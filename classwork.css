@@ -38,6 +38,67 @@ section main .paul {
     }
 }
 section main .dan {
+    animation: dan 2s ease-in infinite;
+}
+
+@keyframes dan {
+    0% {
+        transform: translateY(-20px);
+    }
+
+    50% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(20px);
+    }
+}
+section main .pen {
+    animation: pen 2s ease-in infinite;
+}
+
+@keyframes pen {
+    0% {
+        transform: translateY(-20px);
+    }
+
+    50% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(20px);
+    }
+}
+
+
+section {
+    width: 95%;
+    height: 300px;
+    margin: auto;
+    background: pink;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-block-start: 50px;
+    margin-block-end: 50px;
+    ma
+}
+section main {
+    width: 200px;
+    height: 150px;
+    background: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+section main div {
+    width: 50px;
+    height: 50px;
+    background: white;
+}
+section main .paul {
     animation: paul 2s ease-in infinite;
 }
 
@@ -54,11 +115,28 @@ section main .dan {
         transform: translateY(20px);
     }
 }
-section main .pen {
-    animation: paul 2s ease-in infinite;
+section main .dan1 {
+    animation: dan 2s ease-in infinite;
 }
 
-@keyframes paul {
+@keyframes dan {
+    0% {
+        transform: translateY(-20px);
+    }
+
+    50% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(20px);
+    }
+}
+section main .pen1 {
+    animation: pen 2s ease-in infinite;
+}
+
+@keyframes pen {
     0% {
         transform: translateY(-20px);
     }
