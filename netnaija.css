@@ -1,6 +1,7 @@
 body {
     background-color: rgb(211, 203, 203);
 }
+
 .paul {
     /* border: 2px solid black; */
     width: auto;
@@ -29,8 +30,8 @@ body {
 }
 
 .othniel {
-    text-decoration: none;
-    color: inherit;
+    /* text-decoration: none; */
+    /* color: inherit; */
     list-style: none;
     color: white;
     display: flex;
@@ -48,6 +49,7 @@ body {
     margin-left: 20px;
     display: flex;
 }
+
 .adejumo {
     /* border: 2px solid black; */
     width: 60px;
@@ -58,17 +60,3 @@ body {
     align-items: center;
     justify-content: space-evenly;
 }
-/* .family { */
-    /* border: 2px solid black; */
-    width: 1000px;
-    height: 500px;
-    display: flex;
-    align-items: center;
-    margin-left: 180px;
-    margin-bottom: 20px;
-    margin-top: 0px;
-    background: url(images/images.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-/* } */
