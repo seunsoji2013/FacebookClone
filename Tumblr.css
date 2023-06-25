@@ -22,7 +22,7 @@ body{
 }
 .paul {
     display: flex;
-    margin-left: 600px;
+    margin-left: 1000px;
 }
 .log1 {
     background: rgb(12, 190, 190);
@@ -88,6 +88,7 @@ h1{
 section h1{
     display: block;
     margin: 30px;
+    margin-top: 100px;
 }
 .email{
     padding: 15px;
@@ -168,7 +169,8 @@ section .apple{
 }
 .peniel {
     display: flex;
-    margin-top: 50px;
+    margin-top: 150px;
+    margin-bottom: 1px;
     /* overflow-x: scroll; */
     /* overflow-y: scroll; */
 }
@@ -176,5 +178,5 @@ section .apple{
     color: white;
 }
 .niel2 {
-    margin-left: 950px;
+    margin-left: 1200px;
 }
