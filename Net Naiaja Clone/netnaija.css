@@ -3,23 +3,26 @@ body {
 }
 
 .paul {
-    /* border: 2px solid black; */
-    width: auto;
+    border: 2px solid red;
+    width: 100%;
     height: 80px;
     background-color: black;
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; */
 }
 
 .mary {
     /* border: 2px solid black; */
-    width: auto;
+    width: 100%;
+    /* margin-top: 3%; */
     height: 60px;
     background-color: green;
     display: flex;
     align-items: center;
     padding-left: 20px;
+    position: sticky;
+    top: 0;
 }
 
 #daniel a {
@@ -43,6 +46,7 @@ body {
     font-weight: bolder;
     font-size: larger;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 #othniel a {

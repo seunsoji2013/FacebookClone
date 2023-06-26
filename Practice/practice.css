@@ -1,22 +1,37 @@
-.header {
-border: 1px solid black;
-display: flex;
-align-items: center;
-justify-content: space-between;
-width: 99vw;
-height: 50px;
+body {
+    background-color: blue;
+}
 
+section {
+border: 1px solid black;
+width: 600px;
+height: 600px;
+position: relative;
+bottom: -160px;
+right: -900px;
+background: lightblue;
+/* z-index: 2; */
 }
-.header a {
-text-decoration: none;
-color: inherit;
+
+.one {
+border: 1px solid red;
+width: 200px;
+height: 200px;
+position: absolute;
+bottom: -20px;
+right: -100px;
+background: red;
+z-index: -9999;
 }
-.header li {
-list-style: none;
+
+.two {
+border: 1px solid black;
+width: 200px;
+height: 200px;
+position: absolute;
+top: -20px;
+left: -100px;
+background: purple;
+z-index: -9999;
 }
-.menu {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 400px;
-}
+
